@@ -26,8 +26,13 @@ In this particular example, we created a `no-arg constructor`, meaning the const
 
 The `default no-arg constructor` is like starting the person with a blank slate. No hair color, no height, or weight; each value would be empty (null) or 0 for numerical values.
 
-## object
+## Object
 An instance of a particular class; also the core concept of the OOP
 
+## Nodding Acquaintance
+| Keyword      | Description |
+| ----------- | ----------- |
+| `initialize`      | `initialize` - set to the value or put in the condition appropriate to the start of an operation. So this is the starting point of our variable when we give it a value. We initialize the variable to a value. For example: <br />   ```int initialized = "variable" ```  |
+| `instantiate`   | instantiate - represent as or by an instance. When we create an object we instantiate it by creating an instance of the class. `MUST` always use the `new` keyword. <br/>   ``` Document hello = new Document(); ``` |
 
 Learn more on [w3school](https://www.w3schools.com/java/java_classes.asp)
