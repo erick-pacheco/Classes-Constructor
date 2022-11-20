@@ -6,6 +6,20 @@ Everything in Java is associated with classes and objects, along with its attrib
 
 A Class is like an object constructor, or a "blueprint" for creating objects.
 
+<strong>State</strong> is an object's characteristics. For example, let's say we are working with a Dog object. What kind of state do you think a Dog should have? Here are some ideas:
+
+- furColor
+- name
+- breed
+
+<strong>Behavior</strong> is what an object can do. Some things a dog object could probably do are:
+
+- bark
+- sleep
+- chewOnShoe
+
+Classes can be used to define the state and behavior for the objects that are being created from them. In this lab, we'll learn about how to define and create objects.
+
 ### Constructor
 A constructor is a block of code that will be run when a class is instantiated. Instantiation is the process of Java creating an instance of an object in memory according to the class type. To start the process of instantiation, we use the `new` keyword. A constructor is executed once per object that gets created.
 
