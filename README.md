@@ -70,7 +70,10 @@ constructors help initialize the state of our objects.
 constructors ALWAYS have the SAME NAME OF THE CLASS they are located in.
 constructors DO NOT have return types.
 constructors are invoked implicitly: if you are using the default no-argument constructor provided by Java, you do not have to create one yourself.
- 
+
+***It is called a constructor because it builds or constructs the values at the time of object creation.***
+
+
 ### Methods
 Methods, on the other hand:
 
