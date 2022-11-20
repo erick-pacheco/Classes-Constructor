@@ -22,6 +22,10 @@ public class SpecialClass {
 }
 ```
 
+In this particular example, we created a `no-arg constructor`, meaning the constructor does not take in any arguments. If we did not create any constructors within a class, a default no-arg constructor is created by the compiler instead.
+
+The `default no-arg constructor` is like starting the person with a blank slate. No hair color, no height, or weight; each value would be empty (null) or 0 for numerical values.
+
 ## object
 An instance of a particular class; also the core concept of the OOP
 
