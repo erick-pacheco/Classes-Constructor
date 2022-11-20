@@ -18,7 +18,29 @@ A Class is like an object constructor, or a "blueprint" for creating objects.
 - sleep
 - chewOnShoe
 
-Classes can be used to define the state and behavior for the objects that are being created from them. In this lab, we'll learn about how to define and create objects.
+`Classes` can be used to define the state and behavior for the objects that are being created from them. In this lab, we'll learn about how to define and create objects.
+
+There is one method required in all Java applications for your project to compile. That method is called the `main` method.
+
+```java
+public static void main(String args[]){
+//body
+}
+```
+
+The `main` method is an entry point of the Java program and will invoke all the other methods required by your program.
+
+ 
+
+`public` - Non - public methods are not allowed to be executed by any program. For java runtime to execute the main method, it must be public.
+
+`static` - When java runtime starts, there is no object of the class present. JVM needs to load the class into memory and call the main method. For this reason, the main has to be static.
+
+`void` - In the Java programming language, every method needs to have a return type. Since the main method does not return anything, the return type is void
+
+`main` - This is the method's name. When the java program starts, it looks for the main name. This name is fixed and cannot be changed.
+
+`String[] args` or `String args[]` - The `main` method accepts a single argument of the type String array. ***It is a Java command-line argument***. A mechanism through which the runtime system passes information to our application.
 
 ### Constructor
 A constructor is a block of code that will be run when a class is instantiated. Instantiation is the process of Java creating an instance of an object in memory according to the class type. To start the process of instantiation, we use the `new` keyword. A constructor is executed once per object that gets created.
