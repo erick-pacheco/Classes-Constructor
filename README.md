@@ -42,6 +42,7 @@ The `main` method is an entry point of the Java program and will invoke all the 
 
 `String[] args` or `String args[]` - The `main` method accepts a single argument of the type String array. ***It is a Java command-line argument***. A mechanism through which the runtime system passes information to our application.
 
+
 ### Constructor
 A constructor is a block of code that will be run when a class is instantiated. Instantiation is the process of Java creating an instance of an object in memory according to the class type. To start the process of instantiation, we use the `new` keyword. A constructor is executed once per object that gets created.
 
@@ -61,6 +62,23 @@ public class SpecialClass {
 In this particular example, we created a `no-arg constructor`, meaning the constructor does not take in any arguments. If we did not create any constructors within a class, a default no-arg constructor is created by the compiler instead.
 
 The `default no-arg constructor` is like starting the person with a blank slate. No hair color, no height, or weight; each value would be empty (null) or 0 for numerical values.
+
+### Constructor
+There are some distinct differences between a constructor and a method that we should cover.
+
+constructors help initialize the state of our objects.
+constructors ALWAYS have the SAME NAME OF THE CLASS they are located in.
+constructors DO NOT have return types.
+constructors are invoked implicitly: if you are using the default no-argument constructor provided by Java, you do not have to create one yourself.
+ 
+### Methods
+Methods, on the other hand:
+
+A method is the behavior of our objects.
+A method MUST have a return type.
+A method is invoked explicitly.
+The compiler does not provide a method.
+A method name may or may not match the name of the class, although it is best practice that it doesn’t match the name of the class.
 
 ## Object
 An instance of a particular class; also the core concept of the OOP
