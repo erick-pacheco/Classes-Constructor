@@ -29,6 +29,14 @@ The `default no-arg constructor` is like starting the person with a blank slate.
 ## Object
 An instance of a particular class; also the core concept of the OOP
 
+When we `intantiate` a Class, the `new` instance is placed in a `reference variable`. Observe:
+```java
+/*
+car = Reference Variable
+*/
+Car car = new Car();
+```
+
 ## Nodding Acquaintance
 | Keyword      | Description |
 | ----------- | ----------- |
